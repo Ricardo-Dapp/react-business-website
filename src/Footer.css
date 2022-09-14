@@ -1,0 +1,33 @@
+footer {
+  color: white;
+  background-color: #166daa;
+  text-align: center;
+  padding: 30px;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  border-bottom: white solid 1px;
+  margin: 10px;
+  color: white;
+}
+
+button {
+  border: none;
+  color: #166daa;
+  padding: 10px;
+  width: 80px;
+  margin: 10px;
+}
+
+textarea {
+  background-color: transparent;
+  border: none;
+  border-bottom: white solid 1px;
+  color: white;
+}
+h2,
+h4 {
+  margin-bottom: 20px;
+}

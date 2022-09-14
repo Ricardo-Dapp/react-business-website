@@ -1,0 +1,22 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  background-color: #557a95;
+}
+
+.navIcon {
+  margin: 10px;
+}
+
+.navIcon:hover {
+  cursor: pointer;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}

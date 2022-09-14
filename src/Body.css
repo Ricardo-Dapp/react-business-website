@@ -1,0 +1,74 @@
+.body-container {
+  color: #557a55;
+}
+.header {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 50px;
+  background-color: aliceblue;
+}
+
+.header-title {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 50px;
+}
+
+.imageHolder-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.card-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-container {
+  background-color: aliceblue;
+  margin-bottom: 10%;
+}
+
+.who-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.statement-header {
+  color: black;
+  line-height: 30px;
+  margin-left: 30px;
+  width: 25%;
+  font-size: larger;
+  padding-bottom: 10%;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.img-card {
+  animation: fadeIn 2s;
+  filter: contrast(40%);
+  -webkit-filter: contrast(40%);
+}
+
+.bottom-img {
+  animation: fadeIn 2s;
+  padding-bottom: 10%;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
